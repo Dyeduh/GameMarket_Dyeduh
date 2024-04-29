@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(to right, rgb(250, 114, 114), rgb(255, 202, 103), rgb(252, 252, 93));
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+}
+div {
+    border: 100px solid purple;
+    border-radius: 1000px;
+    background-color: green;
+}
