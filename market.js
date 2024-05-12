@@ -1,4 +1,11 @@
-console.log('Перевірка підключеного файлу скриптів market.js')
+// console.log('Перевірка підключеного файлу скриптів market.js')
+
+let itemsArray = [
+    "Газонокосарка 43", 
+    "Електричний гример 110", 
+    "Електричния газонокосарка 32", 
+    "Акумулаторний оприскувач 12 N",
+]
 
 let itemsDiv = document.getElementById("items");
 
@@ -29,23 +36,27 @@ if (itemsDiv) {
     // for (let i=0; i < 100; i++) {
     //     itemsDiv.innerHTML += '<div class = "item"></div>'
     // }
-} else {
+
+    itemsArray.forEach((item, index) =>{
+        // console.log(item)
+        itemsDiv.innerHTML +=
+        `
+        <div class = "item">
+            <h2>Товар №${index+1} з 4</h2>
+            <p>${item}</p>
+        </div>
+        `
+    })
+} else { 
     console.log('Блок товарів не знайдено')
 }
 
-let itemsArray = [
-    "Газонокосарка 43", 
-    "Електричний гример 110", 
-    "Електричния газонокосарка 32", 
-    "Акумулаторний оприскувач 12 N",
-    "Газонокосарка 430",
-    "Електричний тример 130",
-    "Електрична газонокосарка 320",
-    "Акумуляторний оприскувач 12 E",
-]
+// itemsArray.sort().forEach((item, index) =>{
+//     console.log(index + '-й елемент',item)
+// })
 
-console.log(itemsArray)
+// itemsArray = itemsArray.sort()
 
-for (let i = 0; i < itemsArray.length; i++) {
-    console.log(itemsArray[i])
-}
+// for (let i = 0; i < itemsArray.length; i++) {
+//     console.log(i + '-й елемент: ', itemsArray[i])
+// }
