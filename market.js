@@ -1,30 +1,90 @@
 // console.log('Перевірка підключеного файлу скриптів market.js')
 
 let itemsArray = [
-    "Газонокосарка 43", 
-    "Електричний гример 110", 
-    "Електричния газонокосарка 32", 
-    "Акумулаторний оприскувач 12 N",
-    "Газонокосарка 44", 
-    "Електричний гример 111", 
-    "Електричния газонокосарка 33", 
-    "Акумулаторний оприскувач 13 N",
-    "Газонокосарка 45", 
-    "Електричний гример 112", 
-    "Електричния газонокосарка 34", 
-    "Акумулаторний оприскувач 14 N",
-    "Газонокосарка 43", 
-    "Електричний гример 110", 
-    "Електричния газонокосарка 32", 
-    "Акумулаторний оприскувач 12 N",
-    "Газонокосарка 44", 
-    "Електричний гример 111", 
-    "Електричния газонокосарка 33", 
-    "Акумулаторний оприскувач 13 N",
-    "Газонокосарка 45", 
-    "Електричний гример 112", 
-    "Електричния газонокосарка 34", 
-    "Акумулаторний оприскувач 14 N",
+    {
+        firstName: "Віталій",
+        lastName: "Шатківський",
+        subject: "Інформатика",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
+    },
+    {
+        firstName: "Наталія",
+        lastName: "Венцель",
+        subject: "Директор",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/ventsel-n-v/",
+    },
+    {
+        firstName: "Наталія",
+        lastName: "Кучер",
+        subject: "Фізика",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
+    },
+    {
+        firstName: "Олена",
+        lastName: "Геча",
+        subject: "Історія",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/hecha-o-a/",
+    },
+    {
+        firstName: "Марія",
+        lastName: "Гетманська",
+        subject: "Психолог",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hetmanska-mariya-oleksandrivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/hetmanska-m-o/",
+    },
+    {
+        firstName: "Василь",
+        lastName: "Бабій",
+        subject: "Фізкультура",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/",
+    },
+    {
+        firstName: "Ірина",
+        lastName: "Боровська-Карандюк",
+        subject: "Українська мова",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/",
+    },
+    {
+        firstName: "Вікторія",
+        lastName: "Нелипович",
+        subject: "Математика",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/",
+    },
+    {
+        firstName: "Наталія",
+        lastName: "Кучер",
+        subject: "Фізика",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
+    },
+    {
+        firstName: "Наталія",
+        lastName: "Кучер",
+        subject: "Фізика",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
+    },
+    {
+        firstName: "Наталія",
+        lastName: "Кучер",
+        subject: "Фізика",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
+    },
+    {
+        firstName: "Наталія",
+        lastName: "Кучер",
+        subject: "Фізика",
+        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
+        url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
+    },
 ]
 
 let itemsDiv = document.getElementById("items");
@@ -57,17 +117,26 @@ if (itemsDiv) {
     //     itemsDiv.innerHTML += '<div class = "item"></div>'
     // }
 
-    itemsArray.forEach((item, index) =>{
+    itemsArray.forEach((item, index) => {
         // console.log(item)
         itemsDiv.innerHTML +=
-        `
+            // `
+            // <div class = "item">
+            //     <h2>Товар №${index+1} з ${itemsArray.length}</h2>
+            //     <p>${item}</p>
+            // </div>
+            // `
+            `
         <div class = "item">
-            <h2>Товар №${index+1} з ${itemsArray.length}</h2>
-            <p>${item}</p>
+            <h2>Вчитель №${index + 1} 3 ${itemsArray.length}</h2>
+            <p>${item.firstName} ${item.lastName}</p>
+            <p>Предмет: ${item.subject}</p>
+            <p><img src= "${item.photo}" class="item-image"></p>
+            <p><a href = "${item.url}" target="blank" class = "bonus price ">Профіль</a></p>
         </div>
         `
     })
-} else { 
+} else {
     console.log('Блок товарів не знайдено')
 }
 
