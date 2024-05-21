@@ -23,14 +23,14 @@ div {
 
 .title {
     background: rgb(253, 48, 48);
-    width: auto;
+    width: 200;
     color: white;
     padding: 10px;
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight: bold;
     letter-spacing: 3px;
@@ -43,7 +43,7 @@ div {
 }
 
 .item {
-    min-width: 200px;
+    width: 200px;
     min-height: 400px;
     margin-bottom: 10px;
     padding: 10px;
@@ -58,6 +58,8 @@ div {
 
 .item-title {
     font-weight: bold;
+    width: 150px;
+    font-size: 18px;
 }
 
 .item-image {
@@ -76,30 +78,30 @@ div {
     height: 24px;
 }
 
-.price {
+.prise {
     border: 1px solid rgb(194, 194, 194);
     border-radius: 5px;
     padding: 5px 10px;
     display: flex;
 }
-.price div:first-child {
+.prise div:first-child {
     width: 100px;
     font-size: 20px;
 }
 
-.price div:first-child span {
+.prise div:first-child span {
     text-decoration-line: line-through;
 }
 
-.price div:first-child sup {
+.prise div:first-child sup {
     font-size: 12px;
 }
 
-.price div:last-child {
+.prise div:last-child {
     font-size: 24px;
 }
 
-.price div:last-child sup {
+.prise div:last-child sup {
     font-size: 14px;
 }
 
@@ -109,11 +111,12 @@ div {
     border-radius: 5px;
     display: flex;
     align-items: center;
+    padding: 5px;
 }
     
 .bonus div:first-child {
     width: 100px;
-    font-size: 14px;
+    font-size: 15px;
 }
     
 .bonus div:last-child {

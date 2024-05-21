@@ -2,88 +2,40 @@
 
 let itemsArray = [
     {
-        firstName: "Віталій",
-        lastName: "Шатківський",
-        subject: "Інформатика",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/shatkivskyy-v-m/",
+        title: "Мотокоса 43",
+        image: "img/moto.jpg",
+        mono: 6,
+        pb: 8,
+        prise_standart: 5499,
+        prise_discount: 4497,
+        prise_coupon: 4395,
     },
     {
-        firstName: "Наталія",
-        lastName: "Венцель",
-        subject: "Директор",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/ventsel-n-v/",
+        title: "Електричний тример 110",
+        image: "img/trim.jpg",
+        mono: 5,
+        pb: 6,
+        prise_standart: 4497,
+        prise_discount: 3498,
+        prise_coupon: 3396,
     },
     {
-        firstName: "Наталія",
-        lastName: "Кучер",
-        subject: "Фізика",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/kucher-nataliya-viktorivna-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/kucher-n-v/",
+        title: "Електрична газонокосарка 32",
+        image: "img/ele.png",
+        mono: 4,
+        pb: 5,
+        prise_standart: 4497,
+        prise_discount: 3297,
+        prise_coupon: 3195,
     },
     {
-        firstName: "Олена",
-        lastName: "Геча",
-        subject: "Історія",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hecha-olena-anatoliyivna-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/hecha-o-a/",
-    },
-    {
-        firstName: "Марія",
-        lastName: "Гетманська",
-        subject: "Психолог",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/hetmanska-mariya-oleksandrivna-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/hetmanska-m-o/",
-    },
-    {
-        firstName: "Василь",
-        lastName: "Бабій",
-        subject: "Фізкультура",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/babiy-vasyl-dmytrovych-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/babiy-vasyl-dmytrovych/",
-    },
-    {
-        firstName: "Ірина",
-        lastName: "Боровська-Карандюк",
-        subject: "Українська мова",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/borovska-karandyuk-iryna-anatoliyivna/",
-    },
-    {
-        firstName: "Вікторія",
-        lastName: "Нелипович",
-        subject: "Математика",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/nelypovych-viktoriya-vitaliyivna/",
-    },
-    {
-        firstName: "Лариса",
-        lastName: "Забелло",
-        subject: "Англійська мова",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/zabello-larysa-oleksandrivna-682x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/zabello-l-o/",
-    },
-    {
-        firstName: "Марія",
-        lastName: "Медведєва",
-        subject: "Географія",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/medvedyeva-mariya-vasylivna-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/medvedyeva-mariya-vasylivna/",
-    },
-    {
-        firstName: "Тарас",
-        lastName: "Савінков",
-        subject: "Англійська мова",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/savinkov-taras-yevhenovych-683x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/savinkov-taras-yevhenovych/",
-    },
-    {
-        firstName: "Анжела",
-        lastName: "Лознюк",
-        subject: "Українська мова",
-        photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2023/10/photo_2023-10-25_15-46-33-1-693x1024.jpg",
-        url: "https://lyceum.ztu.edu.ua/team/loznyuk-anzhela-leonidivna/",
+        title: "Акумуляторний обприскувач 12 N",
+        image: "img/obp.jpg",
+        mono: 2,
+        pb: 3,
+        prise_standart: 2190,
+        prise_discount: 1698,
+        prise_coupon: 1596,
     },
 ]
 
@@ -126,13 +78,34 @@ if (itemsDiv) {
             //     <p>${item}</p>
             // </div>
             // `
-            `
+        //     `
+        // <div class = "item">
+        //     <h2>Вчитель №${index + 1} 3 ${itemsArray.length}</h2>
+        //     <p>${item.firstName} ${item.lastName}</p>
+        //     <p>Предмет: ${item.subject}</p>
+        //     <p><img src= "${item.photo}" class="item-image"></p>
+        //     <p><a href = "${item.url}" target="blank" class = "bonus price ">Профіль</a></p>
+        // </div>
+        // `
+        `
         <div class = "item">
-            <h2>Вчитель №${index + 1} 3 ${itemsArray.length}</h2>
-            <p>${item.firstName} ${item.lastName}</p>
-            <p>Предмет: ${item.subject}</p>
-            <p><img src= "${item.photo}" class="item-image"></p>
-            <p><a href = "${item.url}" target="blank" class = "bonus price ">Профіль</a></p>
+            <div class="item-title">${item.title}</div>
+            <div><img src= ${item.image} class="item-image"></div>
+
+            <div class="parts-pay">
+                <div><img src="img/paw.png" alt="">${item.mono}</div>
+                <div><img src="img/pb.png" alt="">${item.pb}</div>
+            </div>
+            
+            <div class="prise">
+                <div><span>${item.prise_standart}</span><sup>грн</sup></div>
+                <div><span>${item.prise_discount}</span><sup>грн</sup></div>
+            </div>
+
+            <div class="price bonus">
+                <div>Ціна за купоном</div>
+                <div><span>${item.prise_coupon}</span><sup>грн</sup></div>
+            </div>
         </div>
         `
     })
