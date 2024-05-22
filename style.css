@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, red, orange, yellow, green, blue, darkblue, purple);
+    background: linear-gradient(to right, red, purple, blue);
 }
 
 .container {
@@ -36,7 +36,7 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center;
-    background-color: red;
+    background-color: rgb(160, 101, 54);
     color: black;
     text-decoration: none;
     border-radius: 5px;
