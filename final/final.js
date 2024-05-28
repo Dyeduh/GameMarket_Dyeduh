@@ -1,13 +1,13 @@
 // console.log('Перевірка підключеного файлу скриптів market.js')
 
-let itemsArray = [
+const itemsArray = [
     {
         email: "23b_bvo@liceum.ztu.edu.ua",
         class: "10-Б 1",
         name: "Башинська Вікторія",
         project: "Dudi 3",
-        img_author: "bashinska.jpg",
-        img_game: "bashinska_game.png",
+        img_author: "img/bashinska.jpg",
+        img_game: "img/bashinska_game.png",
         Phaser2stGame_repo: "https://github.com/ViktoriaBashinska/Phaser2stGame",
         Phaser2stGame_demo: "https://viktoriabashinska.github.io/Phaser2stGame/",
         google_drive: "https://drive.google.com/drive/folders/15v_c4DzKpW5323A4wYMV2Zj7AwRkSPUE?usp=sharing",
@@ -22,8 +22,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Біденко Дмитро",
         project: "виживання проти зомбаря",
-        img_author: "bidenko.jpg",
-        img_game: "bidenko_game.png",
+        img_author: "img/bidenko.jpg",
+        img_game: "img/bidenko_game.png",
         Phaser2stGame_repo: "https://github.com/dimasvoinboecvolk/Phaser2ndGame",
         Phaser2stGame_demo: "https://dimasvoinboecvolk.github.io/Phaser2ndGame/",
         google_drive: "https://drive.google.com/drive/folders/18sH8j7zXJnz1Uz5bi3_uR6hss13pZhH-?usp=drive_link",
@@ -38,6 +38,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Бовсуновського Максима",
         project: "дота 2",
+        img_author: "img/bovsunovskiy.jpg",
+        img_game: "img/bovsunovskiy_game.png",
         Phaser2stGame_repo: "https://github.com/maksbovs/Phaser2ndGame",
         Phaser2stGame_demo: "https://maksbovs.github.io/Phaser2ndGame/",
         google_drive: "https://drive.google.com/drive/folders/1k4q30LAPEh8EpQpzamE_RYHICcYwkVG1?usp=sharing",
@@ -52,6 +54,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Волинець Владислав",
         project: "Пес Патрон на завданні",
+        img_author: "img/volinec.jpg",
+        img_game: "img/volinec_game.png",
         Phaser2stGame_repo: "https://github.com/volynets-vlad/Phaser2ndGame?authuser=0",
         Phaser2stGame_demo: "https://volynets-vlad.github.io/Phaser2ndGame/?authuser=0",
         google_drive: "https://drive.google.com/drive/folders/1g2bPWq8NGqzlBAlI8rMiOYNWBIuiCMRy?usp=classroom_web&authuser=0",
@@ -66,6 +70,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Галетко Артем",
         project: "",
+        img_author: "img/galetko.jpg",
+        img_game: "img/galetko_game.png",
         Phaser2stGame_repo: "https://artem4ikgaletko.github.io/phaserSec2ndgame/?authuser=0",
         Phaser2stGame_demo: "https://artem4ikgaletko.github.io/phaserSec2ndgame/?authuser=0",
         google_drive: "https://drive.google.com/drive/folders/1HSnDCZfuIwp7RzFXJjG2IBUhC4Gx9eyL?usp=drive_link",
@@ -78,6 +84,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Гордійчук Богдан",
         project: "Zhytomur squad Snyok",
+        img_author: "img/gordiychuk.jpg",
+        img_game: "img/gordiychuk_game.png",
         Phaser2stGame_repo: "https://github.com/malintovi/Phaser2ndGame?authuser=0",
         Phaser2stGame_demo: "https://malintovi.github.io/Phaser2ndGame/?authuser=0",
         google_drive: "https://drive.google.com/drive/folders/1EYhBdclLisemO0-yRcLov0Qu3VMlvaVl?usp=sharing",
@@ -92,6 +100,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Гоцман Артем",
         project: "Run_Dude",
+        img_author: "img/gocman.jpg",
+        img_game: "img/gocman_game.png",
         Phaser2stGame_repo: "https://github.com/GOLDEN-ZTU/Phaser2ndGame",
         Phaser2stGame_demo: "https://golden-ztu.github.io/Phaser2ndGame/",
         google_drive: "https://drive.google.com/drive/folders/17jcUqrZBQaD6g0UtpsljRbQN-EcUqnT2",
@@ -106,6 +116,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Гуменюк Олег",
         project: "",
+        img_author: "img/gumenuk.jpg",
+        img_game: "img/gumenuk_game.png",
         Phaser2stGame_repo: "https://github.com/OlegGumenuk",
         Phaser2stGame_demo: "https://oleggumenuk.github.io/Phaser2ndGame/",
         google_drive: "https://drive.google.com/drive/folders/10tRQ_WUvgqz0yGnm0J7WduMyziVFyoE5?usp=drive_link",
@@ -118,6 +130,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Дєдух Ілля",
         project: "kozak_battleground",
+        img_author: "img/dyeduh.jpg",
+        img_game: "img/dyeduh_game.png",
         Phaser2ndGame_repo: "https://github.com/Dyeduh/Phaser2ndGame",
         Phaser2ndGame_demo: "https://dyeduh.github.io/Phaser2ndGame/",
         google_drive: "https://drive.google.com/drive/folders/1ms2y6ckh0DM3u-Li5iWtKVMketXVKQEy?usp=classroom_web&authuser=5",
@@ -132,6 +146,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Дідківській Андрій",
         project: "Баобаб",
+        img_author: "img/didkivskiy.jpg",
+        img_game: "img/didkivskiy_game.png",
         Phaser2ndGame_repo: "https://github.com/AndriyDidkivskij/Phaser2ndGame",
         Phaser2ndGame_demo: "https://andriydidkivskij.github.io/Phaser2ndGame/",
         google_drive: "https://drive.google.com/drive/folders/1Q65jiZ9y4uJw_kcvvC3ma3fksBzR4Btp",
@@ -146,6 +162,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Заєць Богдан",
         project: "",
+        img_author: "img/zayec.jpg",
+        img_game: "img/zayec_game.png",
         Phaser1stGame_repo: "https://github.com/niccer5/Phaser1stGame",
         Phaser1stGame_demo: "https://niccer5.github.io/Phaser1stGame/",
         google_drive: "https://drive.google.com/drive/folders/1NnmW02vDttgyJSTsOeB-hK3L-NuQjKr8",
@@ -158,6 +176,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Кравчук Андрій",
         project: "",
+        img_author: "img/kravchuk.jpg",
+        img_game: "img/kravchuk_game.png",
         Phaser2ndGame_repo: "https://github.com/yawty1",
         Phaser2ndGame_demo: "https://yawty1.github.io/Phaser2ndGame1/",
         google_drive: "https://drive.google.com/drive/folders/1iTB53E5SwT1ds8PftFEwIUbkm5rPm6Ea?usp=drive_link",
@@ -170,6 +190,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Кучер Максим",
         project: "Jfr",
+        img_author: "img/kucher.jpg",
+        img_game: "img/kucher_game.png",
         Phaser2ndGame_repo: "https://github.com/KucherMaks/Phaser2ndGame?authuser=4&hl=ru",
         Phaser2ndGame_demo: "https://kuchermaks.github.io/Phaser2ndGame/?authuser=4&hl=ru",
         google_drive: "https://drive.google.com/drive/folders/1OGZCkFefm150MhQfef1UEbgJImuC4diT?usp=sharing",
@@ -184,6 +206,8 @@ let itemsArray = [
         class: "10-Б 1",
         name: "Лавренко Каріна",
         project: "Dudi 2",
+        img_author: "img/lavrenko.jpg",
+        img_game: "img/lavrenko_game.png",
         Phaser2stGame_repo: "https://github.com/KarinaLavrenko/Phaser2stGame?authuser=0",
         Phaser2stGame_demo: "https://karinalavrenko.github.io/Phaser2stGame/?authuser=0",
         google_drive: "https://drive.google.com/drive/folders/1T8N8q-PBfSBOrRVSNBdqb4bULfN1ZaE9?usp=classroom_web&authuser=0",
@@ -193,9 +217,9 @@ let itemsArray = [
         GameMarket_market: "https://karinalavrenko.github.io/GameMarket_Lavrenko/market.html?authuser=0",
         GameMarket_final: "https://karinalavrenko.github.io/GameMarket_Lavrenko/final/final.html?authuser=0"
     },
-]
+];
 
-let itemsDiv = document.getElementById("items");
+const itemsDiv = document.getElementById('items');
 
 // if (itemsDiv) {
 //     console.log(itemsDiv)
@@ -225,48 +249,70 @@ if (itemsDiv) {
     //     itemsDiv.innerHTML += '<div class = "item"></div>'
     // }
 
-    itemsArray.forEach((item, index) => {
+    itemsArray.forEach((item) => {
         // console.log(item)
-        itemsDiv.innerHTML +=
+        itemsDiv.innerHTML += 
             // `
             // <div class = "item">
             //     <h2>Товар №${index+1} з ${itemsArray.length}</h2>
             //     <p>${item}</p>
             // </div>
             // `
-        //     `
-        // <div class = "item">
-        //     <h2>Вчитель №${index + 1} 3 ${itemsArray.length}</h2>
-        //     <p>${item.firstName} ${item.lastName}</p>
-        //     <p>Предмет: ${item.subject}</p>
-        //     <p><img src= "${item.photo}" class="item-image"></p>
-        //     <p><a href = "${item.url}" target="blank" class = "bonus price ">Профіль</a></p>
-        // </div>
-        // `
+            //     `
+            // <div class = "item">
+            //     <h2>Вчитель №${index + 1} 3 ${itemsArray.length}</h2>
+            //     <p>${item.firstName} ${item.lastName}</p>
+            //     <p>Предмет: ${item.subject}</p>
+            //     <p><img src= "${item.photo}" class="item-image"></p>
+            //     <p><a href = "${item.url}" target="blank" class = "bonus price ">Профіль</a></p>
+            // </div>
+            // `
+            // `
+            // <div class = "item">
+            //     <div class="item-title">${item.title}</div>
+            //     <div><img src= ${item.image} class="item-image"></div>
+
+            //     <div class="parts-pay">
+            //         <div><img src="img/paw.png" alt="">${item.mono}</div>
+            //         <div><img src="img/pb.png" alt="">${item.pb}</div>
+            //     </div>
+
+            //     <div class="prise">
+            //         <div><span>${item.prise_standart}</span><sup>грн</sup></div>
+            //         <div><span>${item.prise_discount}</span><sup>грн</sup></div>
+            //     </div>
+
+            //     <div class="price bonus">
+            //         <div>Ціна за купоном</div>
+            //         <div><span>${item.prise_coupon}</span><sup>грн</sup></div>
+            //     </div>
+            // </div>
+            // `
         `
-        <div class = "item">
-            <div class="item-title">${item.title}</div>
-            <div><img src= ${item.image} class="item-image"></div>
-
-            <div class="parts-pay">
-                <div><img src="img/paw.png" alt="">${item.mono}</div>
-                <div><img src="img/pb.png" alt="">${item.pb}</div>
+        <div class="project-item">
+            <div class="header">
+                <h2>${item.project}</h2>
+                <p>${item.name} ${item.class} ${item.email}</p>
             </div>
-            
-            <div class="prise">
-                <div><span>${item.prise_standart}</span><sup>грн</sup></div>
-                <div><span>${item.prise_discount}</span><sup>грн</sup></div>
+            <div class="images">
+                <img src="${item.img_game}" class="game-image" alt="Game Image">
+                <img src="${item.img_author}" class="author-image" alt="Author Image">
             </div>
-
-            <div class="price bonus">
-                <div>Ціна за купоном</div>
-                <div><span>${item.prise_coupon}</span><sup>грн</sup></div>
+            <div class="links">
+                <a href="${item.Phaser2stGame_repo}" target="_blank">GitHub Repository</a>
+                <a href="${item.Phaser2stGame_demo}" target="_blank">GitHub Pages Game</a>
+                <a href="${item.google_drive}" target="_blank">Google Drive Documentation</a>
+                <a href="${item.google_form}" target="_blank">Survey Form</a>
+                <a href="${item.GameMarket_repo}" target="_blank">GitHub Repository GameMarket</a>
+                <a href="${item.GameMarket_demo}" target="_blank">GitHub Pages Design</a>
+                <a href="${item.GameMarket_market}" target="_blank">Market Pages 4 Products</a>
+                <a href="${item.GameMarket_final}" target="_blank">Market Pages Final</a>
             </div>
         </div>
-        `
-    })
+        `;
+    });
 } else {
-    console.log('Блок товарів не знайдено')
+    console.log('Блок проектів не знайдено');
 }
 
 // itemsArray.sort().forEach((item, index) =>{

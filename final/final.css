@@ -8,9 +8,8 @@ body {
     display: flex;
     justify-content: center;
 }
-
 content {
-    width: 460px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +35,7 @@ div {
     letter-spacing: 3px;
 }
 
-.items {
+/* .items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -64,9 +63,9 @@ div {
 
 .item-image {
     height: 200px;
-}
+} */
 
-.parts-pay {
+/* .parts-pay {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -76,36 +75,36 @@ div {
 
 .parts-pay img {
     height: 24px;
-}
+} */
 
-.prise {
+/* .prise {
     border: 1px solid rgb(194, 194, 194);
     border-radius: 5px;
     padding: 5px 10px;
     display: flex;
 }
 .prise div:first-child {
-    width: 100px;
+    width: 00px;
     font-size: 20px;
-}
+} */
 
-.prise div:first-child span {
+/* .prise div:first-child span {
     text-decoration-line: line-through;
 }
 
 .prise div:first-child sup {
     font-size: 12px;
-}
+} */
 
-.prise div:last-child {
+/* .prise div:last-child {
     font-size: 24px;
 }
 
 .prise div:last-child sup {
     font-size: 14px;
-}
+} */
 
-.bonus {
+/* .bonus {
     background: rgb(253, 48, 48);
     color: white;
     border-radius: 5px;
@@ -125,9 +124,9 @@ div {
     
 .bonus div:last-child sup {
     font-size: 14px;
-}
+} */
 
-.contacts p {
+/* .contacts p {
     margin: 3px;
 }
 
@@ -138,10 +137,67 @@ div {
 
 .contacts p:last-child {
     border-left: 3px solid rgb(253, 48, 48);
-}
+} */
 
-.license {
+/* .license {
     font-size: 9px;
     text-align: justify;
     color: rgb(120, 120, 120);
+} */
+
+
+.project-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.game-image {
+    max-width: 70%;
+    border-radius: 8px;
+}
+
+.author-image {
+    max-width: 28%;
+    border-radius: 8px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.links a:hover {
+    background-color: #0056b3;
 }
